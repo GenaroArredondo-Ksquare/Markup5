@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+font-family: 'Nunito', sans-serif;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    width: 1900px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.center-nav {
+    width: 950px;
+    flex: 1;
+    text-align: left;
+    margin-left: 80px;
+}
+.center-nav ul {
+    display: inline-block;
+    list-style-type: none;
+} 
+.center-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.bioPic {
+    border-radius: 50%;
+    display: flex;
+    background-image: url(http://pm1.narvii.com/7065/89685f7d40eeef93d17543dfb0bda25831e94839r1-800-940v2_uhq.jpg);
+    background-size: 3em 3em;
+    margin-top: 2.5em;
+    width: 3em;
+    height: 3em;
+}
+.left-nav {
+    flex: 0;
+    align-items: right;
+    display: flex;
+    /* margin-left: 60px; */
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+.brand {
+    color: #ff893b;
+    font-weight: bold;
+    font-size: 20px;
+}
+.row {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img {
+    max-width: 50%;
+    padding: 50px 0;
+}
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.product-container {
+    margin-top: 80px;
+}
+.product-container .col-2 img {
+    padding: 0;
+}
+.product-container h4 {
+    margin: 20px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+.btn {
+    display: inline-block;
+    background: #ff893b;
+    padding: 16px 30px;
+    width: 250px;
+    color: #fff;
+    border-radius: 12px;
+    text-align: center;
+}
+h3 {
+    color: #ff893b;
+    background-color: #ffc7a1;
+    border-radius: 12px;
+    text-align: center;
+}
+.price {
+    display: inline-block;
+}
+h2 {
+    text-decoration: line-through;
+    color: rgb(223, 223, 223);
+}
+.product-container input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid gray;
+}
+.img-row {
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.img-col {
+    flex-basis: 25%;
+
+}
+.main-img {
+    margin-left: 220px;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+.img-row img {
+    border-radius: 10px;
+}
+.secondImg {
+    border: 3px solid #ff893b;
+    filter:opacity(50%);
+}
